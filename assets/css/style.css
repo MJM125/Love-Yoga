@@ -11,11 +11,15 @@ min-height: 100vh;
 display: flex;
 flex-direction: column;
 color: #3a3a3a;
-font-family: 'Lato', sans-serif;
+font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 header {
-    background-color: aliceblue;
+    background-color: greenyellow;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
 }
 
 main {
