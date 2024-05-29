@@ -74,6 +74,7 @@ nav {
 main {
     background-color: antiquewhite;
     flex: 1 0 auto;
+    margin-top: 80px;
 }
 
 footer {
