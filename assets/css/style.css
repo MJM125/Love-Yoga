@@ -76,9 +76,14 @@ nav {
 }
 
 main {
-    background-color: antiquewhite;
     flex: 1 0 auto;
     margin-top: 37px;
+}
+
+#hero {
+    height: 900px;
+    width: 100%;
+    background: url("../images/all-about-yoga-mega-722x406.jpg") no-repeat center center/cover;
 }
 
 #social-networks {
