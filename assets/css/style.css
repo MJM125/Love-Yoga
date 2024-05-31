@@ -14,6 +14,13 @@ color: #3a3a3a;
 font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
 header {
     background-color: #ffffff;
     padding: 0 1rem;
@@ -31,12 +38,6 @@ header a {
     color: inherit;
 }
 
-h1 {
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
 
 #menu {
     font-size: 110%;
@@ -84,6 +85,22 @@ main {
     height: 900px;
     width: 100%;
     background: url("../images/all-about-yoga-mega-722x406.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 125px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff ;
 }
 
 #social-networks {
@@ -129,6 +146,11 @@ main {
 
     main {
         margin-top: 75px;
+    }
+
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
