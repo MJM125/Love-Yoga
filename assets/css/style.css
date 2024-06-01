@@ -81,6 +81,28 @@ main {
     margin-top: 37px;
 }
 
+#hero {
+    height: 900px;
+    width: 100%;
+    background: url("../images/tmp_MHvRmj_42d9990eb405dc28_GettyImages-1135547853.webp") no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 125px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+#cover-text > h2, #cover-text > h3 {
+    color: #ffffff ;
+}
+
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -102,17 +124,11 @@ main {
     padding: 0 20px;
 }
 
-hr {
+#benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
 
-#hero {
-    height: 900px;
-    width: 100%;
-    background: url("../images/all-about-yoga-mega-722x406.jpg") no-repeat center center/cover;
-    position: relative;
-}
 
 #circle-cover-bg {
     height: 90vw;
@@ -124,26 +140,13 @@ hr {
     max-height: 300px;
 }
 
-#cover-text {
-    background-color: rgba(241, 109, 107, .7);
-    font-size: 130%;
-    position: absolute;
-    bottom: 30px;
-    width: 80%;
-    min-height: 125px;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-
 #benefits-image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#cover-text > h2, #cover-text > h3 {
-    color: #ffffff ;
-}
+
 
 #social-networks {
     text-align: center;
@@ -194,10 +197,55 @@ hr {
         width: 300px;
         right: 50px;
     }
+
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #benefits-physical>div,
+    #benefits-mental>div {
+        width: 75%;
+    }
+
+    #benefits-mental>div {
+        text-align: end;
+        align-self: flex-end;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits > div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental > div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical > div {
+        align-self: flex-end;
     }
 }
