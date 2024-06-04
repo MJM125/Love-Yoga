@@ -215,9 +215,10 @@ main {
 #schedule {
     background-image: url("../images/istockphoto-870200372-612x612.jpg");
     background-size: cover;
-    width: 1000px;
+    width: 500px;
     height: 400px;
     color: #6f4c2a
+}
 
 #social-networks {
     text-align: center;
