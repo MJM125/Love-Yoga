@@ -88,7 +88,7 @@ main {
 #hero {
     height: 900px;
     width: 100%;
-    background: url("../images/tmp_MHvRmj_42d9990eb405dc28_GettyImages-1135547853.webp") no-repeat center center/cover;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -128,6 +128,10 @@ main {
     padding: 0 0px;
 }
 
+#benefits m {
+    padding: 0 0px;
+}
+
 #benefits hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
@@ -138,7 +142,7 @@ main {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    background: url("../images/800-0425_Simply_Yoga_Susan_02.jpg") no-repeat top center/cover;
+    background: url("../images/circle-image.jpg") no-repeat top center/cover;
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
@@ -151,7 +155,7 @@ main {
 }
 
 #times {
-    background: url("../images/istockphoto-841278554-612x612.jpg") no-repeat center/cover;
+    background: url("../images/sunny-park-on-home-page.jpg") no-repeat center/cover;
     display: flex;
     flex-wrap: wrap;
 }
@@ -171,7 +175,8 @@ main {
 }
 
 #signup {
-    background-image: url("../images/all-about-yoga-mega-722x406.jpg");
+    height: 100vh;
+    background-image: url("../images/form-image.jpg");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -212,12 +217,9 @@ main {
     color: #fafafa;
 }
 
-#schedule {
-    background-image: url("../images/istockphoto-870200372-612x612.jpg");
-    background-size: cover;
-    width: 500px;
-    height: 400px;
-    color: #6f4c2a
+.schedule {
+    background-color: #454b1b;
+    
 }
 
 #social-networks {
