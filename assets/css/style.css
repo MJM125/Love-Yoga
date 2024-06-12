@@ -217,9 +217,13 @@ main {
     color: #fafafa;
 }
 
-.schedule {
-    background-color: #454b1b;
-    
+#photos img {
+    width: 100%; 
+    line-height: 1rem;   
+}
+
+#photos {
+    line-height: 0;
 }
 
 #social-networks {
@@ -234,6 +238,13 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -279,14 +290,18 @@ main {
         width: 100%;
     }
 
-    #benefits-physical>div,
+    #benefits-physical > div,
     #benefits-mental>div {
         width: 75%;
     }
 
-    #benefits-mental>div {
+    #benefits-mental > div {
         text-align: end;
         align-self: flex-end;
+    }
+
+    #photos {
+        column-count: 3;
     }
 
 }
@@ -294,6 +309,10 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    #photos {
+        column-count: 4;
     }
 }
 
