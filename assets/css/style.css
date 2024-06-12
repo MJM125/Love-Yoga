@@ -218,9 +218,9 @@ main {
 }
 
 #photos img {
-    width: 100%; 
+    width: 100%;
+    height: 100%;  
     line-height: 1rem;
-    height: 100%;   
 }
 
 #photos {
