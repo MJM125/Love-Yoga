@@ -227,7 +227,7 @@ main {
     line-height: 0;
 }
 
-# div {
+#times div {
     color: #fafafa;
     background-color: rgba(0, 0, 0, .6);
     padding: 15px;
@@ -246,9 +246,9 @@ main {
 }
 
 #social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
+    font-size: 180%;
+    padding: 7%;
+    color: #828fcc;
 }
 
 @media screen and (min-width: 320px) {
