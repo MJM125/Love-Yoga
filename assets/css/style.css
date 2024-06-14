@@ -227,6 +227,16 @@ main {
     line-height: 0;
 }
 
+# div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align:center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -243,10 +253,16 @@ main {
 
 @media screen and (min-width: 320px) {
     #photos {
-        column-count: 2;
+        column-count: 1;
         column-gap: 0;
     }
 }
+
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
 
 @media screen and (min-width: 768px) {
     nav {
