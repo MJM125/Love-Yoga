@@ -1,9 +1,9 @@
-# Love-Yoga
+#Enjoy Yoga
 
-On the home page I am aware that the information regarding the positives of yoga when viewing on a laptop screen or of similar dimension that feel free and get social are not fully over the right of the screen as well as the circle image.
+This project is for people who would like to either try a new activity to get involved in and partake either indoors or outdoors, or simply to enjoy yoga with new acquaintances or old acquaintances.
 
-when viewing the schedule on a mobile the timings that are at the top of the page doesnt show all at the same time and need to move the screen to the right to view the rest of the timings.
+Authors
+@matthew mears
 
 
 
-when filling in the contact form when sending it will bring to a congragulations page not a thankyou for contacting page.
