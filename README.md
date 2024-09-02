@@ -44,7 +44,9 @@ Block: block-name
 Element: block-name__element-name
 Modifier: block-name--modifier-name or block-name__element-name--modifier-name
 Example
+
 ![example](https://github.com/user-attachments/assets/69930048-b365-411d-be7e-0dd67a2df128)
+
 In this example:
 
 menu is the block.
