@@ -2,7 +2,7 @@
 
 ![home page upper part](https://github.com/user-attachments/assets/42b7cabd-1eea-4d0f-af19-e013c5ad015c)
 
-![home page lower part](https://github.com/user-attachments/assets/75389502-4332-48f9-9f33-246c652d4a24)
+![home page lower part](https://github.com/user-attachments/assets/f3b3a0e1-87c2-47dd-bdab-4dbddef2100a)
 
 ##Description
 This project is for people who would like to either try a new activity to get involved in and partake either indoors or outdoors, or simply to enjoy yoga with new acquaintances or old acquaintances. It informs people about the usefullness of being active in yoga and what you might gain out of it.
@@ -44,13 +44,7 @@ Block: block-name
 Element: block-name__element-name
 Modifier: block-name--modifier-name or block-name__element-name--modifier-name
 Example
-<div class="menu">
-  <ul class="menu__list">
-    <li class="menu__item menu__item--active">Home</li>
-    <li class="menu__item">About</li>
-    <li class="menu__item">Contact</li>
-  </ul>
-</div>
+![example](https://github.com/user-attachments/assets/69930048-b365-411d-be7e-0dd67a2df128)
 In this example:
 
 menu is the block.
