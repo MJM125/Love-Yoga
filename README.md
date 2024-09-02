@@ -69,4 +69,18 @@ Sass
 
 CSS Validation
 The CSS code has been run through the W3C - CSS validator. Results can be found below.
-documentation/html_checker.png
+
+![css validator](https://github.com/user-attachments/assets/616458cd-0258-4b56-8353-99da016059db)
+
+HTML Validation
+The HTML code has been run through the W3C - HTML validator, results can be found below.
+
+![html checker](https://github.com/user-attachments/assets/11d9f4f5-ad71-47c7-b443-a575e2624aef)
+
+Credits
+
+No external code sources were used to develop this website.
+
+Acknowledgements
+
+A special thank you to my mentor Harry Dhillon from Code Institute, for your advice, feedback and reviewing my work!
