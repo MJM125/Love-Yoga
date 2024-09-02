@@ -1,5 +1,9 @@
 #Enjoy Yoga 
 
+![home page upper part](https://github.com/user-attachments/assets/42b7cabd-1eea-4d0f-af19-e013c5ad015c)
+
+![home page lower part](https://github.com/user-attachments/assets/75389502-4332-48f9-9f33-246c652d4a24)
+
 ##Description
 This project is for people who would like to either try a new activity to get involved in and partake either indoors or outdoors, or simply to enjoy yoga with new acquaintances or old acquaintances. It informs people about the usefullness of being active in yoga and what you might gain out of it.
 
